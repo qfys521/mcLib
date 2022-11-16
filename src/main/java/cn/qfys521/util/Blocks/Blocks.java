@@ -915,6 +915,10 @@ public class Blocks {
         c2e.put("黄色羊毛","yellow_wool");
         c2e.put("僵尸的头","zombie_head");
         c2e.put("墙上的僵尸的头","zombie_wall_head");
+        c2e.put("水","water");
+        c2e.put("流动的水","flowing_water");
+        c2e.put("岩浆","lava");
+        c2e.put("流动的岩浆","flowing_lava");
         return c2e.get(BlockChineseName);
     }
     /**
@@ -1819,7 +1823,10 @@ public class Blocks {
         e2c.put("yellow_wool","黄色羊毛");
         e2c.put("zombie_head","僵尸的头");
         e2c.put("zombie_wall_head","墙上的僵尸的头");
-
+        e2c.put("water","水");
+        e2c.put("flowing_water","流动的水");
+        e2c.put("lava","岩浆");
+        e2c.put("flowing_lava","流动的岩浆");
         return e2c.get(BlockName);
     }
     
