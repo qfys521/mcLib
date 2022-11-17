@@ -2,7 +2,7 @@ package cn.qfys521.util.Blocks;
 import java.util.HashMap;
 import cn.qfys521.util.Blocks.Blocks;
 import cn.qfys521.util.Blocks.Blocks.*;
-public class items {
+public class Items {
     /**
     * 未来可能会实现set()，现在已咕咕咕<br/>
     * @author qfys521<br/>
@@ -13,12 +13,12 @@ public class items {
     */
 
     /**
-    * getitemName()
+    * getItemName()
     * @param itemChineseName Item中文名<br/>
     * @return ItemName或者null <br/>
     * @author qfys521
     */
-    public String getitemName(String itemChineseName) {
+    public String getItemName(String itemChineseName) {
         Blocks b1 = new Blocks();
         HashMap<String, String> cte = new HashMap<String, String>();
 
@@ -338,12 +338,12 @@ public class items {
     }
 
     /**
-    * getitemChineseName()
+    * getItemChineseName()
     * @param itemName ItemName<br/>
     * @return Item中文名或者null <br/>
     * @author qfys521
     */
-    public String getitemChineseName(String itemName) {
+    public String getItemChineseName(String itemName) {
         Blocks b2 = new Blocks();
         HashMap<String, String> etc = new HashMap<String, String>();
         etc.put("iron_sword", "铁剑");
